@@ -50,8 +50,6 @@ function App() {
 						}
 					})
 				})
-			} else {
-				console.log("Different choice");
 			}
 			setTimeout(() => resetTurn(), 1000);
 		}
@@ -63,8 +61,6 @@ function App() {
 		setTurns(prevTurns => prevTurns + 1);
 		setDisabled(false);
 	}
-
-	console.log(cards);
 
 	return (
 		<div className='App'>
